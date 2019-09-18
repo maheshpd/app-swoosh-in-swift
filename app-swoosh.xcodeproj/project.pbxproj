@@ -13,6 +13,7 @@
 		B515A69123316D4400130774 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B515A68F23316D4400130774 /* Main.storyboard */; };
 		B515A69323316D4900130774 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B515A69223316D4900130774 /* Assets.xcassets */; };
 		B515A69623316D4900130774 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B515A69423316D4900130774 /* LaunchScreen.storyboard */; };
+		B515A69F233171E500130774 /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B515A69E233171E500130774 /* BorderButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		B515A69223316D4900130774 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B515A69523316D4900130774 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B515A69723316D4900130774 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B515A69E233171E500130774 /* BorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		B515A68823316D4400130774 /* app-swoosh */ = {
 			isa = PBXGroup;
 			children = (
+				B515A69D2331718900130774 /* Views */,
 				B515A68923316D4400130774 /* AppDelegate.swift */,
 				B515A68B23316D4400130774 /* SceneDelegate.swift */,
 				B515A68D23316D4400130774 /* ViewController.swift */,
@@ -65,6 +68,14 @@
 				B515A69723316D4900130774 /* Info.plist */,
 			);
 			path = "app-swoosh";
+			sourceTree = "<group>";
+		};
+		B515A69D2331718900130774 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B515A69E233171E500130774 /* BorderButton.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +152,7 @@
 				B515A68E23316D4400130774 /* ViewController.swift in Sources */,
 				B515A68A23316D4400130774 /* AppDelegate.swift in Sources */,
 				B515A68C23316D4400130774 /* SceneDelegate.swift in Sources */,
+				B515A69F233171E500130774 /* BorderButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,7 +305,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.createapps.app-swoosh.app-swoosh";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -311,7 +323,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.createapps.app-swoosh.app-swoosh";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
